@@ -395,6 +395,16 @@ header {
     width: 360px;
     border-radius: 12px;
 }
+@media (min-width: 2000px) {
+    .comfort-zone, .sexy-girls {
+        padding: 10vw 0;
+    }
+    .present {
+        min-height: unset;
+        gap: 36vh;
+    }
+
+}
 @media (max-width: 1600px) {
     .present {
         min-height: 100vh;
@@ -402,6 +412,7 @@ header {
         background-size: cover;
         background-repeat: no-repeat;
         padding-bottom: 0rem;
+
     }
 }
 @media (max-width: 1250px) {
